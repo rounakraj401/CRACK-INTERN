@@ -1,0 +1,64 @@
+https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/
+
+class Solution {
+public:
+    bool checkString(string s) {
+        int n=s.length();
+        string s1="";
+        for(int i=0;i<n;i++)s1+=s[i];
+        
+        sort(s1.begin(),s1.end());
+        for(int i=0;i<n;i++)
+        {
+            if(s[i]!=s1[i])return false;
+        }
+        return true;
+    }
+};
+
+https://leetcode.com/problems/number-of-laser-beams-in-a-bank/
+
+class Solution {
+public:
+    int numberOfBeams(vector<string>& bank) {
+        int m=bank.size(); 
+        vector<int>vec;
+        for(int i=0;i<m;i++)
+        {   
+            int n=bank[i].length();
+            int count=0;
+            for(int j=0;j<n;j++)
+            {
+                if(bank[i][j]=='1')count++;
+            }
+            if(count!=0)
+            vec.push_back(count);
+        }
+        if(vec.size()==0)return 0;
+        int ans=0;
+        for(int i=0;i<vec.size()-1;i++)
+        {
+            ans+=(vec[i]*vec[i+1]);
+        }
+        return ans;
+    }
+};
+
+
+https://leetcode.com/problems/destroying-asteroids/
+
+class Solution {
+public:
+    bool asteroidsDestroyed(int mass, vector<int>& asteroids) {
+        long long int sum=mass;
+        sort(asteroids.begin(),asteroids.end());
+        long long int i;
+        for( i=0;i<asteroids.size();i++)
+        {
+            if(sum>=asteroids[i])sum+=asteroids[i];
+            else
+                return false;
+        }
+        return true;
+    }
+};
