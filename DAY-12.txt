@@ -1,0 +1,70 @@
+https://leetcode.com/problems/min-cost-climbing-stairs/
+
+class Solution {
+public:
+/*  int fun(int n,vector<int>& cost,vector<int>& dp)
+    {
+       if(n<2)return 0;
+        if(dp[n]!=-1)return dp[n];
+        
+        int left=fun(n-1,cost,dp)+cost[n-1];
+        int right=INT_MAX;
+        if(n>1)
+            right=fun(n-2,cost,dp)+cost[n-2];
+        
+        return dp[n]=min(left,right);
+    }*/
+    int minCostClimbingStairs(vector<int>& cost) {
+        int n=cost.size();
+         int prev2=0;
+         int prev=0;
+        int cur;
+        for(int i=2;i<=n;i++)
+        {
+            int left=prev+cost[i-1];
+        
+            int right=prev2+cost[i-2];
+            cur=min(left,right);
+            prev2=prev;
+            prev=cur;
+        }
+        return prev;
+        
+    }
+};
+
+https://leetcode.com/problems/house-robber/
+
+class Solution {
+public:
+/* MEMOIZATION-TOP DOWN APPROACH
+int fun(int n,vector<int>&nums,vector<int>&dp)
+    {
+        if(n==0)return nums[0];
+        if(n<0)return 0;
+        if(dp[n]!=-1)return dp[n];
+        int pick=nums[n]+fun(n-2,nums,dp);
+        
+        int notpick=0+fun(n-1,nums,dp);
+        return dp[n]=max(pick,notpick);
+    }
+    
+    TABULATION-BOTTOM UP APPROACH->
+    */
+    int rob(vector<int>& nums) {
+        int n=nums.size();
+        vector<int>dp(n+1,-1);
+       
+        dp[0]=nums[0];
+        for(int i=1;i<n;i++)
+        {
+            int pick=nums[i];
+            if(i>1)pick+=dp[i-2];
+            
+            int notpick=0+dp[i-1];
+            
+            dp[i]=max(pick,notpick);
+        }
+        return dp[n-1];
+    }
+};
