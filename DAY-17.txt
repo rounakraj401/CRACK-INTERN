@@ -1,0 +1,77 @@
+https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/
+
+class Solution {
+public:
+    vector<int> minOperations(string boxes) {
+        int n=boxes.length();
+        vector<int>vec;
+        for(int i=0;i<n;i++)
+        {
+            int temp=0;
+            for(int j=0;j<n;j++)
+            {
+                if(boxes[j]=='1')
+                    temp+=abs(j-i);
+            }
+            vec.push_back(temp);
+        }
+        return vec;
+    }
+};
+
+
+https://leetcode.com/problems/max-increase-to-keep-city-skyline/
+
+class Solution {
+public:
+    int maxIncreaseKeepingSkyline(vector<vector<int>>& grid) {
+        vector<int>row;
+        vector<int>col;
+        
+        int n=grid.size();
+        for(int i=0;i<n;i++)
+        {
+            int temp1=0;
+            int temp2=0;
+            for(int j=0;j<n;j++)
+            {
+                temp1=max(temp1,grid[i][j]);
+                temp2=max(temp2,grid[j][i]);
+            }
+            row.push_back(temp1);
+            col.push_back(temp2);
+        }
+        int ans=0;
+        for(int i=0;i<n;i++)
+        {
+            for(int j=0;j<n;j++)
+            {
+                if(grid[i][j]!=row[i])
+                {
+                    ans+=(min(row[i],col[j])-grid[i][j]);
+                }  
+            }
+        }
+        return ans;
+    }
+};
+
+https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/
+
+class Solution {
+public:
+    int maxWidthOfVerticalArea(vector<vector<int>>& points) {
+        vector<int>vec;
+        for(int i=0;i<points.size();i++)
+        {
+            vec.push_back(points[i][0]);
+        }
+        sort(vec.begin(),vec.end());
+        int ans=INT_MIN;
+        for(int i=0;i<vec.size()-1;i++)
+        {
+            ans=max(ans,vec[i+1]-vec[i]);
+        }
+        return ans;
+    }
+};
