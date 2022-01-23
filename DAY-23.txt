@@ -1,0 +1,24 @@
+https://leetcode.com/problems/count-the-hidden-sequences/
+
+class Solution {
+public:
+    int numberOfArrays(vector<int>& differences, int lower, int upper) {
+        int n=differences.size();
+        long long sum=0;
+        long long maxm=sum;
+        long long minm=sum;
+        
+        for(int i=0;i<n;i++)
+        {
+            sum+=differences[i];
+            maxm=max(maxm,sum);
+            minm=min(minm,sum);
+        }
+        long long ub=upper-maxm;
+        long long lb=lower-minm;
+        
+        if(ub-lb+1>0)return ub-lb+1;
+        else
+            return 0;
+    }
+};
