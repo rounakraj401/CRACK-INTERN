@@ -1,0 +1,81 @@
+https://leetcode.com/problems/target-sum/
+
+class Solution {
+public:
+    int fun(vector<int>&a, int tar)
+  {
+    int n=a.size();
+    vector<vector<int>>dp(n,vector<int>(tar+1,0));
+    
+    if(a[0]==0)dp[0][0]=2;
+    else 
+        dp[0][0]=1;
+    
+    if(a[0]!=0 && a[0]<=tar)dp[0][a[0]]=1;
+    
+    for(int i=1;i<n;i++)
+    {
+        for(int j=0;j<=tar;j++)
+        {
+            int nottake=dp[i-1][j];
+            int take=0;
+            if(a[i]<=j)take=dp[i-1][j-a[i]];
+        
+           dp[i][j]=(take+nottake);
+        }
+    }
+    return dp[n-1][tar];
+  }
+    int findTargetSumWays(vector<int>& nums, int target) {
+        
+        int n=nums.size();
+        int sum=0;
+        for(auto &it:nums)sum+=it;
+        if((sum-target)%2 || sum<target)return false;
+        return fun(nums,(sum-target)/2);
+    }
+};
+
+https://leetcode.com/problems/minimum-size-subarray-sum/
+
+class Solution {
+public:
+    int maxsum(vector<int>&pref ,int len)
+    {
+        int n=pref.size();
+        int ans=pref[len-1];
+        for(int i=1;i<n-len+1;i++)
+        {
+                ans=max(ans,pref[i+len-1]-pref[i-1]);
+        }
+        return ans;
+    }
+    int minSubArrayLen(int target, vector<int>& nums) {
+        int n=nums.size();
+        vector<int>pref(n);
+        pref[0]=nums[0];
+        for(int i=1;i<n;i++)
+        {
+            pref[i]=nums[i]+pref[i-1];
+        }
+        int l=1;
+        int h=n;
+        bool check=false;
+        int ans;
+        while(l<=h)
+        {
+            int mid=(l+h)/2;
+            if(maxsum(pref,mid)>=target)
+            {
+                check=true;
+                ans=mid;
+                h=mid-1;
+            }
+            else
+                l=mid+1;
+        }
+        if(check)return ans;      //return l also possible as both are same
+        else
+           return 0;
+    }
+};
