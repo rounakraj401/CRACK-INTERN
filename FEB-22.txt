@@ -1,0 +1,38 @@
+https://leetcode.com/problems/maximum-xor-for-each-query/
+class Solution {
+public:
+    vector<int> getMaximumXor(vector<int>& nums, int maximumBit) {
+        vector<int>ans;
+        int x=(1<<maximumBit)-1;
+        
+        int z=0;
+        for(int i=0;i<nums.size();i++)z^=nums[i];
+        
+        ans.push_back(x-z);
+        for(int i=nums.size()-1;i>0;i--)
+        {
+            z^=nums[i];
+            ans.push_back(x-z);
+        }
+        return ans;
+    }
+};
+
+https://leetcode.com/problems/count-primes/
+
+class Solution {
+public:
+     int countPrimes(int n) {
+         if(n==0 || n==1 || n==2)return 0;
+        vector<bool> prime(n, true);
+        prime[0] = false, prime[1] = false;
+        for (int i = 2; i*i <(n); i++) {
+            if (prime[i]) {
+                for (int j = i*i; j <n; j += i) {
+                    prime[j] = false;
+                }    
+            }    
+        }
+        return count(prime.begin(), prime.end(), true);
+    }
+};
