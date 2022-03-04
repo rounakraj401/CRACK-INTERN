@@ -1,0 +1,20 @@
+https://leetcode.com/submissions/detail/650464950/
+
+class Solution {
+public:
+    int numJewelsInStones(string jewels, string stones) {
+        int n=jewels.length();
+        int m=stones.length();
+        int ans=0;
+        for(int i=0;i<n;i++)
+        {
+            int cnt=0;
+            for(int j=0;j<m;j++)
+            {
+                if(stones[j]==jewels[i])cnt++;
+            }
+            ans+=cnt;
+        }
+        return ans;
+    }
+};

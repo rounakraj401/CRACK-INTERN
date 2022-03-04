@@ -1,0 +1,21 @@
+https://leetcode.com/problems/sort-colors/
+
+class Solution {
+public:
+    void sortColors(vector<int>& nums) {
+        int n=nums.size();
+        int x=0;
+        int y=n-1;
+        int i=0;
+        while(i<=y){
+            if(nums[i]==0)
+                swap(nums[i++],nums[x++]);
+            else if(nums[i]==2)
+                swap(nums[i],nums[y--]);
+           else
+               i++;
+            
+        }
+        
+    }
+};

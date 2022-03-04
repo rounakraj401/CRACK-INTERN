@@ -1,0 +1,65 @@
+https://leetcode.com/problems/score-after-flipping-matrix/
+
+class Solution {
+public:
+    int matrixScore(vector<vector<int>>& grid) {
+        int m=grid.size();
+        int n=grid[0].size();
+
+        for(int i=0;i<m;i++)
+        {
+            if(grid[i][0]==0){
+            for(int j=0;j<n;j++)
+               grid[i][j]=(grid[i][j]+1)%2;
+        }           
+        }
+
+        for(int i=0;i<n;i++)
+        {
+            int cnt1=0;
+            for(int j=0;j<m;j++)
+            {
+                if(grid[j][i]==1)cnt1++;
+            }
+            if(m%2==1 && cnt1<=m/2)
+                for(int j=0;j<m;j++)grid[j][i]=(grid[j][i]+1)%2;
+            else if(m%2==0 && cnt1<m/2)
+                for(int j=0;j<m;j++)grid[j][i]=(grid[j][i]+1)%2;
+        }
+        int ans=0;
+        for(int i=0;i<m;i++)
+        {
+            for(int j=0;j<n;j++)
+            {
+                if(grid[i][j])ans+=pow(2,n-1-j);
+            }
+       }
+       return ans;
+    }
+};
+
+https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subs
+
+class Solution {
+public:
+    int fun(vector<int>&nums,int start,int curr,int n,int maxor,vector<vector<int>>&dp)
+    {
+        if(start==n)return (curr==maxor);
+        
+        if(dp[start][curr]!=-1)return dp[start][curr];
+        
+        dp[start][curr]=fun(nums,start+1,curr,n,maxor,dp)+fun(nums,start+1,(curr|nums[start]),n,maxor,dp);
+        
+        return dp[start][curr];
+    }
+    int countMaxOrSubsets(vector<int>& nums) {
+        int n=nums.size();
+        int maxM=(1<<17);
+        int maxN=17;
+        int maxor=0;
+        for(int i=0;i<n;i++)maxor|=nums[i];
+        vector<vector<int>>dp(maxN,vector<int>(maxM,-1));
+       
+        return fun(nums,0,0,n,maxor,dp);                      
+    }
+};
