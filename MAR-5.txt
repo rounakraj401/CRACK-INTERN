@@ -1,0 +1,62 @@
+https://leetcode.com/problems/delete-and-earn/
+
+class Solution {
+public:
+    int solve(vector<int>&arr,int i,vector<int>&dp)
+    {
+        int n=arr.size();
+        if(i>=arr.size())return 0;
+        
+        if(dp[i]!=-1)return dp[i];
+        
+        int currv=arr[i];
+        int currs=arr[i];
+        int idx=i+1;
+        
+        while(idx<n  && arr[idx]==currv)
+        {
+            currs+=arr[idx];
+            idx++;
+        }
+        while(idx<n && arr[idx]==currv+1)
+        {
+            idx++;
+        }
+        return dp[i]=max(currs+solve(arr,idx,dp),solve(arr,i+1,dp));
+    }
+    int deleteAndEarn(vector<int>& nums) {
+        int n=nums.size();
+        sort(nums.begin(),nums.end());
+        vector<int>dp(20001,-1);
+        return solve(nums,0,dp);
+        
+    }
+};
+
+https://leetcode.com/problems/longest-common-subsequence/
+
+class Solution {
+public:
+    int longestCommonSubsequence(string text1, string text2) {
+        int n=text1.size();
+        int m=text2.size();
+        int dp[1002][1002];
+       vector<int>prev(10002,0),cur(10002,0);
+        
+        for(int i=0;i<10002;i++)
+            prev[i]=0;
+        
+        for(int i=1;i<n+1;i++)
+        {
+            for(int j=1;j<m+1;j++)
+            {
+                    if(text1[i-1]==text2[j-1])
+                     cur[j]=prev[j-1]+1;
+                    else
+                     cur[j]=max(prev[j],cur[j-1]);
+            }
+            prev=cur;
+        }
+        return prev[m];
+    }
+};

@@ -1,0 +1,52 @@
+https://leetcode.com/problems/longest-common-prefix/
+
+class Solution {
+public:
+    string longestCommonPrefix(vector<string>& str) {
+        int n = str.size();
+        if(n==0) return "";
+        
+        string ans= "";
+        sort(begin(str), end(str));
+        string a1 = str[0];
+        string b1 = str[n-1];
+        
+        for(int i=0; i<a1.size(); i++){
+            if(a1[i]==b1[i]){
+                ans = ans + a1[i];
+            }
+            else{
+                break;
+            }
+        }
+        
+        return ans;
+    }
+};
+
+https://leetcode.com/contest/biweekly-contest-73/problems/most-frequent-number-following-key-in-an-array/
+
+class Solution {
+public:
+    int mostFrequent(vector<int>& nums, int key) {
+        int n=nums.size();
+        vector<int>vec(1001,0);
+        map<int,int>m;
+        for(int i=0;i<n-1;i++)
+        {
+            if(nums[i]==key)
+              vec[nums[i+1]]++;
+        }
+        int maxm=-1;
+        int temp=-1;
+        for(int i=1;i<=1000;i++)
+        {
+            if(vec[i]>maxm)
+            {
+                maxm=vec[i];
+                temp=i;
+            }
+        }
+        return temp;
+    }
+};
