@@ -1,0 +1,15 @@
+https://leetcode.com/problems/create-target-array-in-the-given-order/submissions/
+
+class Solution {
+public:
+    vector<int> createTargetArray(vector<int>& nums, vector<int>& index) {
+        int n=nums.size();
+        vector<int>ans;
+        auto it=ans.insert(ans.begin(),nums[0]);
+        for(int i=1;i<n;i++)
+        {
+            it=ans.insert(ans.begin()+index[i],nums[i]);
+        }
+        return ans;
+    }
+};
