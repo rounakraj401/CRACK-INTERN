@@ -1,0 +1,22 @@
+https://leetcode.com/problems/base-7/
+
+class Solution {
+public:
+    string convertToBase7(int n) {
+        string ans="";
+        
+        int num=abs(n);
+        if(num==0)ans='0'+ans;
+        while(num)
+        {
+            ans=to_string(num%7)+ans;
+            num/=7;
+        }
+        if(n<0)
+        {
+            ans="-" + ans;
+            return ans;
+        }
+        return ans;
+    }
+};

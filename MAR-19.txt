@@ -1,0 +1,39 @@
+https://leetcode.com/problems/valid-perfect-square/
+
+class Solution {
+public:
+    bool isPerfectSquare(int num) {
+        int x=1;
+        while(num>0)
+        {
+            num-=x;
+            x+=2;
+            if(!num)return true;
+        }
+        return false;
+    }
+};
+
+https://leetcode.com/problems/find-the-difference/
+
+class Solution {
+public:
+    char findTheDifference(string s, string t) {
+        map<char,int>mp;
+        for(int i=0;i<s.length();i++)
+        {
+            mp[s[i]]++;
+        }
+        for(int i=0;i<t.length();i++)
+        {
+            mp[t[i]]++;
+        }
+        char ans;
+        for(auto it:mp)
+        {
+            if(it.second%2==1)
+            {ans=it.first;break;}
+        }
+        return ans;
+    }
+};

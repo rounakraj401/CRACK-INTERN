@@ -1,0 +1,32 @@
+https://leetcode.com/problems/distance-between-bus-stops/
+
+class Solution {
+public:
+    int distanceBetweenBusStops(vector<int>& distance, int s, int d) {
+        int n=distance.size();
+        if(d==0)d=n;
+        
+        int sum=0;
+        for(int i=0;i<n;i++)
+        {
+            sum+=distance[i];
+        }
+        int sum1=0;
+        if(s<=d){
+        for(int i=s;i<d;i++)
+        {
+            sum1+=distance[i];
+        }
+    }
+    else
+    {
+        for(int i=d;i<s;i++)
+        {
+            sum1+=distance[i];
+        }
+    }
+        if(sum1<=sum-sum1)return sum1;
+        else
+            return sum-sum1;
+    }
+};
