@@ -1,17 +1,10 @@
 class Solution {
 public:
     int maxOperations(vector<int>& nums, int k) {
-        map<int,int>m;
-        int ans=0;
-        for(int it:nums)
-        {
-            if(m[k-it]>0){
-                ans++;
-                m[k-it]--;
-            }
-            else
-                m[it]++;
-        }
-        return ans;
+        map<int, int>a;int c=0;
+        for(int i: nums)
+            if(a[k-i])a[k-i]--,c++;
+            else a[i]++;
+        return c;
     }
 };
