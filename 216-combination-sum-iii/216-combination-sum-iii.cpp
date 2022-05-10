@@ -9,15 +9,12 @@ public:
             ans.push_back(temp);
             return;
         }
-        
         for(int i=start;i<10;i++)
             {
                 temp.push_back(i);
                 helper(k-1,n-i,i+1,temp,ans);
-            
                 temp.pop_back();
             }
-        
     }
     
     vector<vector<int>> combinationSum3(int k, int n) {
