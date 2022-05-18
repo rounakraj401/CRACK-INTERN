@@ -8,15 +8,17 @@ class Solution {
     // Function to return a list containing the DFS traversal of the graph.
     void dfs(int i,vector<int>&vis,vector<int>&ans,vector<int>adj[])
     {
-        if(vis[i]==0){
+        
         ans.push_back(i);
         vis[i]=1;
         for(auto it:adj[i])
         {
+            if(vis[it]==0){
             dfs(it,vis,ans,adj);
         }
         }
     }
+    
     vector<int> dfsOfGraph(int n, vector<int> adj[]) {
         vector<int>ans;
         vector<int>vis(n,0);
