@@ -1,22 +1,22 @@
 class Solution {
 public:
     int findMaxForm(vector<string>& strs, int m, int n) {
-        int numZeroes, numOnes;
-vector<vector<int>> memo(m+1, vector<int>(n+1, 0));
-  for (auto &s : strs) {
-    numZeroes = numOnes = 0;
-    for (auto c : s) {
-      if (c == '0')
-	numZeroes++;
-      else if (c == '1')
-	numOnes++;
+        vector<vector<vector<int>>>dp(m+1,vector<vector<int>>(n+1,vector<int>(strs.size(),-1)));
+        return fun(strs,m,n,0,dp);
     }
-    for (int i = m; i >= numZeroes; i--) {
-	for (int j = n; j >= numOnes; j--) {
-          memo[i][j] = max(memo[i][j], memo[i - numZeroes][j - numOnes] + 1);
-	}
+    int fun(vector<string>&strs ,int m,int n,int idx,vector<vector<vector<int>>>&dp)
+    {
+        if(idx==strs.size())return 0;
+        
+        if(dp[m][n][idx]!=-1)return dp[m][n][idx];
+        
+        int cntz=count(strs[idx].begin(),strs[idx].end(),'0');
+        int cnto=strs[idx].size()-cntz;
+        
+        if(m-cntz>=0 && n-cnto>=0)      
+          return dp[m][n][idx]=max(1+fun(strs,m-cntz,n-cnto,idx+1,dp),fun(strs,m,n,idx+1,dp));
+        
+        return dp[m][n][idx]=fun(strs,m,n,idx+1,dp);
     }
-  }
-  return memo[m][n];
-    }
+    
 };
