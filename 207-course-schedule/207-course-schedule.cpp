@@ -20,7 +20,7 @@ public:
         vector<int>adj[num];
         for(int i=0;i<n;i++)
         {
-            adj[pre[i][1]].push_back(pre[i][0]);
+            adj[pre[i][0]].push_back(pre[i][1]);
         }
         vector<int>vis(num,0);
         vector<bool>par(num,0);
