@@ -27,15 +27,15 @@ public:
         while(!q.empty())
         {
             int x=q.size();
-            while(x--)
-            {
+             while(x--){
+                 
              int node=q.front();
              q.pop();
-                
+        
             for(auto it:routes[node])
             {
                 if(it==tar)return ans;
-                
+
                 for(auto j:m[it])
                 {
                     if(st.find(j)==st.end())
@@ -45,7 +45,7 @@ public:
                     }
                 }
             }  
-           }  
+            }
             ans++;
         }
         return -1;
