@@ -1,5 +1,5 @@
 # Minimum Cost of ropes
-## Easy 
+##  Easy 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">There are given <strong>N</strong> ropes of different lengths, we need to connect these ropes into one rope. The cost to connect two ropes is equal to sum of their lengths. The task is to connect the ropes with minimum cost.</span></p>
 
