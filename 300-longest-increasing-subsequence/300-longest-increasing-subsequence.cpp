@@ -13,7 +13,6 @@ public:
         return dp[i][prev+1]=len;
     }
     int lengthOfLIS(vector<int>& nums) {
-        int prev=-1;
         int n=nums.size();
         vector<vector<int>>dp(n,vector<int>(n+1,-1));
         return solve(0,-1,nums,n,dp);
