@@ -1,25 +1,49 @@
 class Solution {
 public:
+    static bool compare(string s1,string s2)
+    {
+       if(s1.length()!=s2.length()+1)return false;
+        
+        int it1=0;
+        int it2=0;
+        
+        while(it1<s1.size())
+        {
+             if(it2<s2.size() && s1[it1]==s2[it2])
+             {
+                 it1++;
+                 it2++;
+             }
+            else
+            {
+                it1++;
+            }
+        }
+        if(it1==s1.length() && it2==s2.length())return true;
+        else
+                return false;
+        
+    }
+    static bool cmp(string a,string b)
+    {
+        return a.length()<b.length();
+    }
     int longestStrChain(vector<string>& words) {
-         vector<unordered_set<string>> W(17);
-        for (auto word : words) 
-            W[word.size()].insert(word);
-        unordered_map<string, int> dp;
-        int best = 1;
-        for (int i = 16; i; i--) {
-            if (W[i-1].empty()) continue;
-            for (auto word : W[i]) {
-                int wVal = dp[word] ? dp[word] : 1;
-                for (int j = 0; j < word.size(); j++) {
-                    string pred = word.substr(0,j) + word.substr(j+1);
-                    int pVal = dp[pred] ? dp[pred] : 1;
-                    if (W[i-1].find(pred) != W[i-1].end() && wVal >= pVal) {
-                        dp[pred] = wVal + 1;
-                        best = max(best, wVal + 1);
-                    }
+        int n=words.size();
+        vector<int>dp(n,1);
+        
+        sort(words.begin(),words.end(),cmp);
+        
+        for(int i=1;i<n;i++)
+        {
+            for(int j=0;j<i;j++)
+            {
+                if(compare(words[i],words[j]))
+                {
+                    dp[i]=max(dp[i],1+dp[j]);
                 }
             }
         }
-        return best;
+        return *max_element(dp.begin(),dp.end());
     }
 };
