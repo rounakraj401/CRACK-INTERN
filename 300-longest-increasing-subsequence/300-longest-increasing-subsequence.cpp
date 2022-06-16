@@ -34,20 +34,42 @@ public:
 //         return next[0];
 //     }
         
+        
+//       ANOTHER APPROACH 
+        
+//         int n=nums.size();
+//         vector<int>dp(n,1);
+        
+//         for(int i=1;i<n;i++)
+//         {
+//             for(int j=0;j<i;j++)
+//             {
+//                 if(nums[j]<nums[i])
+//                 {
+//                     dp[i]=max(dp[i],1+dp[j]);
+//                 }
+//             }
+//         }
+//         return *max_element(dp.begin(),dp.end());
+        
+        
+//        ANOTHER APPROACH  TC-0(nlogn)
+        
         int n=nums.size();
-        vector<int>dp(n,1);
+        vector<int>temp;
+        temp.push_back(nums[0]);
         
         for(int i=1;i<n;i++)
         {
-            for(int j=0;j<i;j++)
+            if(nums[i]>temp.back())
+              temp.push_back(nums[i]);
+            else
             {
-                if(nums[j]<nums[i])
-                {
-                    dp[i]=max(dp[i],1+dp[j]);
-                }
+                int idx=lower_bound(temp.begin(),temp.end(),nums[i])-temp.begin();
+                temp[idx]=nums[i];
             }
         }
-        return *max_element(dp.begin(),dp.end());
+        return temp.size();
     }
 };
 
