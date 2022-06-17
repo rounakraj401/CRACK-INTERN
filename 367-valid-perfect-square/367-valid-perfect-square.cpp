@@ -1,7 +1,6 @@
 class Solution {
 public:
     bool isPerfectSquare(int num) {
-        int x=sqrt(num);
-        return x*x==num;
+        return ceil(sqrt(num)==floor(sqrt(num)));
     }
 };
