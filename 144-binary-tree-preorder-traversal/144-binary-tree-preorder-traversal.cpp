@@ -20,12 +20,13 @@ public:
         
         while(!st.empty())
         {
-            TreeNode *x=st.top();
+    //        TreeNode *x=st.top();
+            root=st.top();
             st.pop();
             
-            ans.push_back(x->val);
-            if(x->right!=NULL)st.push(x->right);
-            if(x->left!=NULL)st.push(x->left);
+            ans.push_back(root->val);
+            if(root->right!=NULL)st.push(root->right);
+            if(root->left!=NULL)st.push(root->left);
         }
         return ans;
     }
