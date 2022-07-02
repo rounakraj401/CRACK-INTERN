@@ -21,7 +21,7 @@ public:
             maxc=max(maxc,ve[i]-ve[i-1]);
         }
         
-        long long int ans=(1LL*maxr*maxc)%MOD;
+        int ans=(1LL*maxr*maxc)%MOD;
         return ans;
     }
 };
