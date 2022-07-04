@@ -1,36 +1,33 @@
 class Solution {
 public:
-    int ladderLength(string begin, string end, vector<string>& word) {
-        unordered_set<string>st(word.begin(),word.end());
-        queue<pair<string,int>>q;
-        
-        q.push({begin,1});
-        while(!q.empty())
-        {
-            auto it=q.front();
-            string s=it.first;
-            int cnt=it.second;
-            
-            q.pop();
-            if(s==end)return cnt;
-            
-            st.erase(s);
-            
-            for(int i=0;i<s.length();i++)
-            {
-                char ch=s[i];
-                for(int j=0;j<26;j++)
-                {
-                    s[i]='a'+j;
-                    
-                    if(st.find(s)!=st.end())
-                    {
-                        q.push({s,cnt+1});
+    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
+        unordered_set<string>m;
+        for(auto &it:wordList)m.insert(it);        
+        if(!m.count(endWord))return 0;
+        queue<string>q;
+        q.push(beginWord);
+        int ans=0;
+        q.push(beginWord);
+        while(!q.empty()){
+            int n=q.size();
+            ans++;
+            for(int p=0;p<n;p++){
+                string word=q.front();
+                q.pop();                
+                for(int i=0;i<word.size();i++){
+                    char c=word[i];
+                    for(int j=0;j<26;j++){
+                        word[i]='a'+j;
+                        if(m.count(word)){
+                            if(word==endWord)return ans+1;
+                            m.erase(word);
+                            q.push(word);
+                        }
                     }
+                    word[i]=c;
                 }
-                s[i]=ch;
             }
         }
-        return 0;
+        return 0;        
     }
 };
