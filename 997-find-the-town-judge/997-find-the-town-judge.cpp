@@ -4,19 +4,13 @@ public:
         
         if(trust.size()==0 && n==1)return 1;
         
-        vector<int>out(n+1,0);
-        vector<int>in(n+1,0);
-        
-        for(auto it:trust)
+       vector<int>vec(n+1,0);
+        for(int i=0;i<trust.size();i++)
         {
-            out[it[0]]++;
-            in[it[1]]++;
+            vec[trust[i][1]]++;
+            vec[trust[i][0]]--;
         }
-        
-        for(int i=0;i<=n;i++)
-        {
-            if(out[i]==0 && in[i]==n-1)return i;
-        }
+        for(int i=1;i<=n;i++)if(vec[i]==n-1)return i;
         return -1;
     }
 };
