@@ -11,34 +11,34 @@
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-//         ListNode* temp=head;
-//         ListNode* start=head;
-        
-//         if(head==NULL)return head;
-        
-//         while(temp->next!=NULL)
-//         {
-//           while(temp->val==start->val)
-//           {
-//             temp=temp->next;
-//               if(temp==NULL){
-//                   start->next=NULL;
-//                   return head;
-//               }
-//           }
-//           start->next=temp;
-//           start=temp;
-//         }
-//         return head;
-//     }
-        
+        ListNode* temp=head;
         if(head==NULL || head->next==NULL)return head;
-        ListNode *newh=deleteDuplicates(head->next);
-        if(newh->val==head->val)return newh;
-        else
+        
+        while(temp->next!=NULL)
         {
-            head->next=newh;
-            return head;
+            if(temp->val==temp->next->val)
+            {
+                ListNode *del=temp->next;
+                temp->next=del->next;
+                delete del;
+            }
+            else
+            {
+                temp=temp->next;
+            }
         }
+        return head;
+        
+    
+        //  RECURSIVE SOLUTION
+    
+        // if(head==NULL || head->next==NULL)return head;
+        // ListNode *newh=deleteDuplicates(head->next);
+        // if(newh->val==head->val)return newh;
+        // else
+        // {
+        //     head->next=newh;
+        //     return head;
+        // }
     }
 };
