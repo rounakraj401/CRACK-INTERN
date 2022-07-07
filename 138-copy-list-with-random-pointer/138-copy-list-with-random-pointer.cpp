@@ -41,14 +41,14 @@ public:
             it=it->next->next;
         }
         
-        Node* curr=head;
+        it=head;
         Node* dummy=new Node(-1);
         Node* tail=dummy;
-        while(curr!=NULL){
-            tail->next=curr->next;
+        while(it!=NULL){
+            tail->next=it->next;
             tail=tail->next;
-            curr->next=tail->next;
-            curr=curr->next;
+            it->next=tail->next;
+            it=it->next;
         }
         return dummy->next;
     }
