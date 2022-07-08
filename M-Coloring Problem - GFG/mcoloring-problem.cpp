@@ -23,7 +23,7 @@ bool solver(int node,bool graph[101][101],int m,int n,int color[])
         if(isSafe(node,i,graph,m,n,color))
         {
             color[node]=i;
-            if(solver(node+1,graph,m,n,color))return true;;
+            if(solver(node+1,graph,m,n,color))return true;;;
             color[node]=0;
         }
     }
