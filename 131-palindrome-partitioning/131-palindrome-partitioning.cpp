@@ -8,7 +8,7 @@ public:
         }
         return true;
     }
-    void fun(string s,int idx,vector<vector<string>>&ans,vector<string>&path)
+    void fun(string s,int idx,vector<vector<string>>&ans,vector<string>&path,map<pair<int,int>,bool>&m)
     {
         if(idx==s.length())
         {
@@ -19,10 +19,11 @@ public:
         
         for(int i=idx;i<s.length();i++)
         {
-            if(ispal(s,idx,i))
+            if(m[{idx,i}]==1 || ispal(s,idx,i))
             {
+                m[{idx,i}]=1;
                 path.push_back(s.substr(idx,i-idx+1));
-                fun(s,i+1,ans,path);
+                fun(s,i+1,ans,path,m);
                 path.pop_back();
             }
         }
@@ -30,7 +31,8 @@ public:
     vector<vector<string>> partition(string s) {
         vector<vector<string>>ans;
         vector<string>path;
-        fun(s,0,ans,path);
+        map<pair<int,int>,bool>m;
+        fun(s,0,ans,path,m);
         return ans;
     }
 };
