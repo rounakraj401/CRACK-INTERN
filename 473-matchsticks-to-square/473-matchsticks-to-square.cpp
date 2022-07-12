@@ -12,14 +12,14 @@ public:
         {
             if(vec[i]+stick[idx]>target)continue;
             
-            int j=i-1;
-            while(j>=0)
-            {
-                if(vec[j]==vec[i])
-                    break;
-                j--;
-            }
-            if(j!=-1)continue;
+            // int j=i-1;
+            // while(j>=0)
+            // {
+            //     if(vec[j]==vec[i])
+            //         break;
+            //     j--;
+            // }
+            // if(j!=-1)continue;
             
             vec[i]+=stick[idx];
             if(fun(stick,target,vec,idx+1))
