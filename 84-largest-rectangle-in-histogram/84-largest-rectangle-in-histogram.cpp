@@ -37,25 +37,58 @@ public:
 //         return maxm;
 //     }
         
+//         int n=hi.size();
+//         stack<int>st;
+//         int maxm=0;
+        
+//         for(int i=0;i<=n;i++)
+//         {
+//             while(!st.empty() && (i==n || hi[st.top()]>=hi[i]))
+//             {
+//                 int height=hi[st.top()];
+//                 st.pop();
+//                 int width;
+//                 if(st.empty())width=i;
+//                 else
+//                     width=i-st.top()-1;
+                
+//                 maxm=max(maxm,height*width);
+//             }
+//             st.push(i);
+//         }
+//         return maxm;
+        
         int n=hi.size();
         stack<int>st;
-        int maxm=0;
+        vector<int>ls(n,0),rs(n,0);
         
-        for(int i=0;i<=n;i++)
+        for(int i=0;i<n;i++)
         {
-            while(!st.empty() && (i==n || hi[st.top()]>=hi[i]))
-            {
-                int height=hi[st.top()];
+            while(!st.empty() && hi[st.top()]>=hi[i])
                 st.pop();
-                int width;
-                if(st.empty())width=i;
-                else
-                    width=i-st.top()-1;
-                
-                maxm=max(maxm,height*width);
-            }
+            
+            if(st.empty())ls[i]=0;
+            else
+                ls[i]=st.top()+1;
+            
             st.push(i);
         }
+        while(!st.empty())st.pop();
+        
+        for(int i=n-1;i>=0;i--)
+        {
+            while(!st.empty() && hi[st.top()]>=hi[i])
+                st.pop();
+            
+            if(st.empty())rs[i]=n-1;
+            else
+                rs[i]=st.top()-1;
+            
+            st.push(i);
+        }
+        int maxm=0;
+        for(int i=0;i<n;i++)maxm=max(maxm,(rs[i]-ls[i]+1)*hi[i]);
         return maxm;
     }
+    
 };
