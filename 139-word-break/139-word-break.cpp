@@ -19,25 +19,25 @@ public:
 //     }
     bool wordBreak(string s, vector<string>& word) {
         unordered_set<string>st(word.begin(),word.end());
-        vector<int>dp(s.length()+1,0);
-   //     return fun(0,s,st,dp);
+        // vector<int>dp(s.length()+1,-1);
+        // return fun(0,s,st,dp);
+        int n=s.length();
+        vector<bool>dp(n+1,0);
         
-        int l = s.length();
-        
-        string cs = "";
-        dp[0] = 1;
-        
-        for(int i = 1 ; i<= l; i++){
-            cs = "";
-            for(int j = i ; j >= 1 ;j--){
-                cs = s[j - 1] + cs ;
-                if(st.count(cs) && dp[j - 1]){
-                    dp[i] = 1;
+        dp[0]=1;
+        for(int i=1;i<=n;i++)
+        {
+            string cur;
+            for(int j=0;j<i;j++)
+            {
+                cur=s.substr(j, i-j);
+                if(st.count(cur) && dp[j])
+                {
+                    dp[i]=1;
                     break;
                 }
-            }            
+            }
         }
-
-        return dp[l];
+        return dp[n];
     }
 };
