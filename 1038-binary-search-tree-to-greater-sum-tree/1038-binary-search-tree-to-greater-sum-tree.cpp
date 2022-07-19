@@ -11,38 +11,20 @@
  */
 class Solution {
 public:
-    void preorder(TreeNode* node,vector<int>&pre)
+    void fun(TreeNode* root,int &cnt)
     {
-        if(node==NULL)return;
-        pre.push_back(node->val);
+        if(root==NULL)return;
+        fun(root->right,cnt);
         
-        preorder(node->left,pre);
-        preorder(node->right,pre);
-    }
-    void fun(TreeNode *node,unordered_map<int,int>&mp)
-    {
-        if(node==NULL)return;
-        node->val=mp[node->val];
+        root->val+=cnt;
+        cnt=root->val;
         
-        fun(node->left,mp);
-        fun(node->right,mp);
+        fun(root->left,cnt);
+        return;
     }
     TreeNode* bstToGst(TreeNode* root) {
-        vector<int>pre;
-        preorder(root,pre);
-        
-        sort(pre.begin(),pre.end());
-        int sum=accumulate(pre.begin(),pre.end(),0ll);
-        
-        unordered_map<int,int>mp;
-        int x=0;
-        for(int i=0;i<pre.size();i++)
-        {
-            mp[pre[i]]=sum-x;
-            x+=pre[i];
-        }
-        
-        fun(root,mp);
+        int cnt=0;
+        fun(root,cnt);
         return root;
     }
 };
