@@ -1,26 +1,38 @@
 class Solution {
 public:
-    int countSubstrings(string s) {
-        int n=s.length();
-        vector<vector<bool>> dp(n+1,vector<bool>(n+1,false));
-        int count=n;
-        
-        for(int i=0;i<n;i++)
-            dp[i][i]=true;
-        for(int i=n-1;i>=0;i--)
-        {
-            for(int j=i+1;j<n;j++)
-            {
-                if(s[i]==s[j])
-                {
-                    if(j-i==1 || dp[i+1][j-1])
-                    {
-                        dp[i][j]=true;
-                        count++;
-                    }
-                }
-            }
+    bool check(string s,int i,int j)
+    {
+        while(i<=j){
+        if(s[i]!=s[j])return false;
+            
+          i++;
+          j--;
         }
-        return count;
+        return true;
+    }
+//     int fun(string s,int i,int j,vector<vector<int>>&dp)
+//     {
+//         if(i>j)return 0;
+//         if(i==j)return 1;
+        
+//         if(dp[i][j]!=-1)return dp[i][j];
+        
+//         if(check(s,i,j))return dp[i][j]=1+fun(s,i+1,j,dp)+fun(s,i,j-1,dp)-fun(s,i+1,j-1,dp);
+        
+//         return dp[i][j]=fun(s,i+1,j,dp)+fun(s,i,j-1,dp)-fun(s,i+1,j-1,dp);
+//     }
+    int countSubstrings(string s) {
+       int sum=0;
+       for(int i=0;i<s.size();i++)
+       {  
+           string ans="";
+           for(int j=i;j<s.size();j++)
+           {
+               ans+=s[j];
+               if(check(ans,0,ans.size()-1))
+                   sum++;
+           }
+       }
+        return sum;    
     }
 };
