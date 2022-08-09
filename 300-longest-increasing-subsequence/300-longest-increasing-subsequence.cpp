@@ -54,6 +54,7 @@ public:
         
         
 //        ANOTHER APPROACH  TC-0(nlogn)
+//   gives the correct length of LIS but temp is not the lis
         
         int n=nums.size();
         vector<int>temp;
