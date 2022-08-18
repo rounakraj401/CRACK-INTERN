@@ -1,0 +1,26 @@
+class Solution {
+public:
+    int minSetSize(vector<int>& arr) {
+        int n=arr.size();
+        map<int,int>m;
+        for(int i=0;i<n;i++)
+        m[arr[i]]++;
+        
+        vector<int>vec;
+        for(auto it:m)
+        {
+            vec.push_back(it.second);
+        }
+        sort(vec.begin(),vec.end());
+        int sum=0;
+        int cnt=0;
+        for(int i=vec.size()-1;i>=0;i--)
+        {
+            sum+=vec[i];
+            cnt++;
+            if(sum>=n/2)
+                break;
+        }
+        return cnt;
+    }
+};
