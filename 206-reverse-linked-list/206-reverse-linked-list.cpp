@@ -12,14 +12,14 @@ class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
         if(head==NULL)return NULL;
-        ListNode* prev=NULL,*temp=head,*nex=head->next;
+        ListNode* prev=NULL,*curr=head,*temp;
         
-        while(temp!=NULL)
+        while(curr!=NULL)
         {
-            temp->next=prev;
-            prev=temp;
-            temp=nex;
-            if(nex!=NULL)nex=nex->next;
+            temp=curr->next;
+            curr->next=prev;
+            prev=curr;
+            curr=temp;
         }
         return prev;
     }
