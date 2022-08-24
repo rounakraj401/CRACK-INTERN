@@ -3,25 +3,34 @@ public:
     int trap(vector<int>& a) {
         int ans=0;
         int n=a.size();
-        vector<int>pre_for(n);
-        vector<int>pre_back(n);
+        int lm=0;
+        int rm=0;
         
-        pre_for[0]=a[0];
-        pre_back[n-1]=a[n-1];
+        int l=0;
+        int r=n-1;
         
-        for(int i=1;i<n;i++)
+        while(l<=r)
         {
-            pre_for[i]=max(a[i],pre_for[i-1]);
-        }
-        for(int i=n-2;i>=0;i--)
-        {
-            pre_back[i]=max(a[i],pre_back[i+1]);
+            if(a[l]<=a[r])
+            {
+                if(a[l]>=lm)
+                    lm=a[l];
+                else
+                    ans+=lm-a[l];
+                
+                l++;
+            }
+            else
+            {
+                if(a[r]>=rm)
+                    rm=a[r];
+                else
+                    ans+=rm-a[r];
+                
+                r--;
+            }
         }
         
-        for(int i=0;i<n;i++)
-        {
-            ans+=min(pre_for[i],pre_back[i])-a[i];
-        }
         return ans;
     }
 };
