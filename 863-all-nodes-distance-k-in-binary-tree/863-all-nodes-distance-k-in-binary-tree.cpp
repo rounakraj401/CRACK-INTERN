@@ -9,73 +9,41 @@
  */
 class Solution {
 public:
-    void mark(TreeNode* root,unordered_map<TreeNode* ,TreeNode*>&parent)
+    void markParent(TreeNode* root,TreeNode* parent,unordered_map<TreeNode*,TreeNode*>&mp)
     {
-        queue<TreeNode*>q;
-        q.push(root);
+        if(root==NULL)return;
+        mp[root]=parent;
         
-        while(!q.empty())
-        {
-            TreeNode* cur=q.front();
-            q.pop();
-            
-            if(cur->left)
-            {
-                parent[cur->left]=cur;
-                q.push(cur->left);
-            }
-            if(cur->right)
-            {
-                parent[cur->right]=cur;
-                q.push(cur->right);
-            }
-        }
+        markParent(root->left,root,mp);
+        markParent(root->right,root,mp);
+        return;
     }
+    
+    void printKdistance(TreeNode* currnode,unordered_map<TreeNode*,TreeNode*>&mp,set<TreeNode*>&st,int k,vector<int>&ans)
+    {
+        if(currnode==NULL || st.find(currnode)!=st.end() || k<0)return;
+        
+        st.insert(currnode);
+        
+        if(k==0)
+        {
+            ans.push_back(currnode->val);
+            return;
+        }        
+        printKdistance(currnode->left,mp,st,k-1,ans);
+        printKdistance(currnode->right,mp,st,k-1,ans);
+        printKdistance(mp[currnode],mp,st,k-1,ans);
+        return;
+    }
+    
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
-        unordered_map<TreeNode* ,TreeNode*>parent;
-        mark(root,parent);
-        
-        int lvl=0;
-        
-        unordered_map<TreeNode*,bool>vis;
-        queue<TreeNode*>q;
-        
-        q.push(target);
-        vis[target]=1;
-        
-        while(!q.empty())
-        {
-            int size=q.size();
-            
-            if(lvl++==k)break;
-            for(int i=0;i<size;i++)
-            {
-                TreeNode* cur=q.front();
-                q.pop();
-                
-                if(cur->left && !vis[cur->left])
-                {
-                    q.push(cur->left);
-                    vis[cur->left]=1;
-                }
-                if(cur->right && !vis[cur->right])
-                {
-                    q.push(cur->right);
-                    vis[cur->right]=1;
-                }
-                if(parent[cur] && !vis[parent[cur]])
-                {
-                    q.push(parent[cur]);
-                    vis[parent[cur]]=1;
-                }
-            }
-        }
+        unordered_map<TreeNode* , TreeNode*>mp;
         vector<int>ans;
-        while(!q.empty())
-        {
-            ans.push_back(q.front()->val);
-            q.pop();
-        }
+        set<TreeNode*>st;
+        
+        markParent(root,NULL,mp);
+        
+        printKdistance(target,mp,st,k,ans);
         return ans;
     }
 };
