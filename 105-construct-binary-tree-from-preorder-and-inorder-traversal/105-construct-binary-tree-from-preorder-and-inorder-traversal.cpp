@@ -11,31 +11,35 @@
  */
 class Solution {
 public:
-    TreeNode* create(vector<int>& preorder, vector<int>& inorder, unordered_map<int,int>&mp,int ps,int pe,int is,int ie)
+    unordered_map<int,int> markIndex(vector<int>&inorder)
     {
-        if(ps>pe || is>ie)
-            return nullptr;
-        int rootIndxInInorder=mp[preorder[ps]];
-        int lps=ps+1;
-        int lpe=ps+rootIndxInInorder-is;
-        int rps=lpe+1;
-        int rpe=pe;
-        int lis=is;
-        int lie=rootIndxInInorder-1;
-        int ris=rootIndxInInorder+1;
-        int rie=ie;
-        TreeNode* root=new TreeNode(preorder[ps]);
-        TreeNode* left=create(preorder,inorder,mp,lps,lpe,lis,lie);
-        TreeNode* right=create(preorder,inorder,mp,rps,rpe,ris,rie);
-        root->left=left;
-        root->right=right;
-        return root;
-    }
-    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-          int n=preorder.size();
         unordered_map<int,int>mp;
+        int n=inorder.size();
         for(int i=0;i<n;i++)
-            mp[inorder[i]]=i;
-        return create(preorder,inorder,mp,0,n-1,0,n-1);
+          mp[inorder[i]]=i;
+        
+        return mp;
+    }
+    TreeNode* constructTree(int start,int end,int &preidx,vector<int>&preorder,unordered_map<int,int>&mp)
+    {
+        if(start>end)return NULL;
+        
+        TreeNode* node= new TreeNode(preorder[preidx]);        
+        int inidx=mp[preorder[preidx]];
+        
+        preidx++;
+        
+        node->left=constructTree(start,inidx-1,preidx,preorder,mp);
+        node->right=constructTree(inidx+1,end,preidx,preorder,mp);
+        
+        return node;
+    }
+    
+    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+        int n=preorder.size();
+        
+        unordered_map<int,int>mp=markIndex(inorder);
+        int preidx=0;
+        return constructTree(0,n-1,preidx,preorder,mp);
     }
 };
