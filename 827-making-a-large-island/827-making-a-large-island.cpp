@@ -73,8 +73,10 @@ public:
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
                 
-                if(grid[i][j]==1)
-                    mp[color++]=dfs(grid,i,j,color); 
+                if(grid[i][j]==1){
+                  mp[color]=dfs(grid,i,j,color); 
+                  color++;
+                }
             }
         }      
         
