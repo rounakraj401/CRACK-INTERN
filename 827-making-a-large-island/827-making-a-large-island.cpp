@@ -31,7 +31,6 @@ public:
                 dfs(grid, row+dir[2][0], col+dir[2][1],color)+
                 dfs(grid, row+dir[3][0], col+dir[3][1],color);
         
-        return 0;
     }
     int checkNeighbours(vector<vector<int>> &grid, unordered_map<int,int> &m, int n){
         int ans=0;
@@ -66,7 +65,7 @@ public:
         int ans=0;
         int n=grid.size();
         
-        int color =2; 
+        int color=2; 
         
         unordered_map<int,int> mp;
         
