@@ -31,11 +31,9 @@ public:
                     
                     ans.push_back(temp);
                     
-                    while(it1<it2 && nums[it1]==nums[it1+1])it1++;
-                    while(it1<it2 && nums[it2]==nums[it2-1])it2--;  
+                    while(it1<it2 && temp[1]==nums[it1])it1++;
+                    while(it1<it2 && temp[2]==nums[it2])it2--;  
                     
-                    it1++;
-                    it2--;
                 }
             }
             while(i+1<n && nums[i+1]==nums[i])i++;
