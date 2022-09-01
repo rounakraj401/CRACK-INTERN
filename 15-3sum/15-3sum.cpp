@@ -7,8 +7,6 @@ public:
         
         for(int i=0;i<n-2;i++)
         {
-            if(i==0 || (i>0 && nums[i]!=nums[i-1]))
-            {
              int it1=i+1;
              int it2=n-1;
             
@@ -40,7 +38,7 @@ public:
                     it2--;
                 }
             }
-           }
+            while(i+1<n && nums[i+1]==nums[i])i++;
         }
         return ans;
         
