@@ -1,32 +1,27 @@
 class Solution {
 public:
-    void fun(int i,vector<vector<int>>&ans,vector<int>&ds,vector<int>& cand, int target)
+    void uniquecombination(int idx,vector<int>&candidates,int target,vector<int>&temp,vector<vector<int>>&result)
     {
-        if(i==cand.size())
+        if(idx==candidates.size())
         {
             if(target==0)
-                ans.push_back(ds);
-            
-            return ;
+                result.push_back(temp);
+            return;
         }
         
-        
-        if(cand[i]<=target)
+        if(candidates[idx]<=target)
         {
-            ds.push_back(cand[i]);
-            fun(i,ans,ds,cand,target-cand[i]);
-            ds.pop_back();
+            temp.push_back(candidates[idx]);
+            uniquecombination(idx,candidates,target-candidates[idx],temp,result);
+            temp.pop_back();
         }
-        fun(i+1,ans,ds,cand,target);
-        
+        uniquecombination(idx+1,candidates,target,temp,result);
     }
-    
-    
-    vector<vector<int>> combinationSum(vector<int>& cand, int target) {
-        vector<vector<int>>ans;
-        vector<int>ds;
-        fun(0,ans,ds,cand,target);
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        vector<vector<int>>result;
+        vector<int>temp;
         
-        return ans;
+        uniquecombination(0,candidates,target,temp,result);
+        return result;
     }
 };
