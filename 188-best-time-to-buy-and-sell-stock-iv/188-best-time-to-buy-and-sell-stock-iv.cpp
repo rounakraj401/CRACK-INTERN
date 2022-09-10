@@ -1,34 +1,30 @@
 class Solution {
 public:
-    int maxProfit(int z, vector<int>& prices) {
-         int n=prices.size();
-        vector<vector<vector<int>>>dp(prices.size()+1,vector<vector<int>>(2,vector<int>(z+1,0)));
+    int fun(int idx,int n,int k,int canbuy , vector<int>&prices,vector<vector<vector<int>>>&dp)
+    {
+        if(k==0 || idx==n)
+            return 0;
         
-        if(n==1)return 0;
+        if(dp[idx][k][canbuy]!=-1)return dp[idx][k][canbuy];
         
-        for(int i=n-1;i>=0;i--)
+        int profit=INT_MIN;
+        if(canbuy)
         {
-            for(int j=0;j<2;j++)
-            {
-                for(int k=1;k<z+1;k++)
-                {
-                    if(j==1)
-                    {
-                        int profit1=-prices[i]+dp[i+1][0][k];
-                        int profit2=dp[i+1][1][k];
-            
-                        dp[i][j][k]=max(profit1,profit2);
-                     }
-                    else
-                    {
-                        int profit3=prices[i]+dp[i+1][1][k-1];
-                        int profit4=dp[i+1][0][k];
-            
-                        dp[i][j][k]=max(profit3,profit4);
-                    }
-                }
-            }
+             profit=max(profit , -prices[idx]+fun(idx+1,n,k,1-canbuy,prices,dp));
+             profit=max(profit , fun(idx+1,n,k,canbuy,prices,dp));
         }
-        return dp[0][1][z];
+        else
+        {
+             profit=max(profit , prices[idx]+fun(idx+1,n,k-1,1-canbuy,prices,dp));
+             profit=max(profit , fun(idx+1,n,k,canbuy,prices,dp));
+        }
+        return dp[idx][k][canbuy]=profit;
+    }
+    int maxProfit(int k, vector<int>& prices) {
+        bool canbuy=1;
+        int n=prices.size();
+        
+        vector<vector<vector<int>>>dp(n+1,vector<vector<int>>(k+1,vector<int>(2,-1)));
+        return fun(0,n,k,canbuy,prices,dp);
     }
 };
