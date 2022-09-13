@@ -27,7 +27,6 @@ public:
             {
                 ans=len;
                 st=l+1;
-                end=l-1;
             }
         }
         
@@ -50,7 +49,6 @@ public:
             {
                 ans=len;
                 st=l+1;
-                end=l-1;
             }
         }
         string a=s.substr(st,ans);
