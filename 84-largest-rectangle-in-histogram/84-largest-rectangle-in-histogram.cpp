@@ -1,41 +1,41 @@
 class Solution {
 public:
     int largestRectangleArea(vector<int>& hi) {
-//         int n=hi.size();
-//         stack<int>s;
-//         vector<int>left(n);
-//         vector<int>right(n);
+        int n=hi.size();
+        stack<int>s;
+        vector<int>left(n);
+        vector<int>right(n);
         
-//         for(int i=0;i<n;i++)
-//         {
-//            while(!s.empty() && hi[s.top()]>=hi[i])s.pop();
+        for(int i=0;i<n;i++)
+        {
+           while(!s.empty() && hi[s.top()]>=hi[i])s.pop();
            
-//             if(s.empty())left[i]=0;
-//             else
-//                 left[i]=s.top()+1;
-//             s.push(i);
-//         }
+            if(s.empty())left[i]=0;
+            else
+                left[i]=s.top()+1;
+            s.push(i);
+        }
         
-//         while(!s.empty())s.pop();
+        while(!s.empty())s.pop();
         
-//         for(int i=n-1;i>=0;i--)
-//         {
-//            while(!s.empty() && hi[s.top()]>=hi[i])s.pop();
+        for(int i=n-1;i>=0;i--)
+        {
+           while(!s.empty() && hi[s.top()]>=hi[i])s.pop();
            
-//             if(s.empty())right[i]=n-1;
-//             else
-//                 right[i]=s.top()-1;
+            if(s.empty())right[i]=n-1;
+            else
+                right[i]=s.top()-1;
             
-//             s.push(i);
-//         }
+            s.push(i);
+        }
         
-//         int maxm=0;
-//         for(int i=0;i<n;i++)
-//         {
-//             maxm=max(maxm,((right[i]-left[i]+1)*hi[i]));
-//         }
-//         return maxm;
-//     }
+        int maxm=0;
+        for(int i=0;i<n;i++)
+        {
+            maxm=max(maxm,((right[i]-left[i]+1)*hi[i]));
+        }
+        return maxm;
+    }
         
 //         int n=hi.size();
 //         stack<int>st;
@@ -58,37 +58,5 @@ public:
 //         }
 //         return maxm;
         
-        int n=hi.size();
-        stack<int>st;
-        vector<int>ls(n,0),rs(n,0);
-        
-        for(int i=0;i<n;i++)
-        {
-            while(!st.empty() && hi[st.top()]>=hi[i])
-                st.pop();
-            
-            if(st.empty())ls[i]=0;
-            else
-                ls[i]=st.top()+1;
-            
-            st.push(i);
-        }
-        while(!st.empty())st.pop();
-        
-        for(int i=n-1;i>=0;i--)
-        {
-            while(!st.empty() && hi[st.top()]>=hi[i])
-                st.pop();
-            
-            if(st.empty())rs[i]=n-1;
-            else
-                rs[i]=st.top()-1;
-            
-            st.push(i);
-        }
-        int maxm=0;
-        for(int i=0;i<n;i++)maxm=max(maxm,(rs[i]-ls[i]+1)*hi[i]);
-        return maxm;
-    }
     
 };
