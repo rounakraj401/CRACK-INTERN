@@ -10,9 +10,7 @@
  */
 class Solution {
 public:
-    ListNode* removeNthFromEnd(ListNode* head, int n) {
- //       if(head->next==NULL && n==1)return NULL;
-        
+    ListNode* removeNthFromEnd(ListNode* head, int n) {        
         ListNode* ptr1=head;
         ListNode* ptr2=head;
         
