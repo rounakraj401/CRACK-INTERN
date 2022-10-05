@@ -1,37 +1,42 @@
 class Solution {
 public:
+    bool checkCycle(int i,vector<int>adj[] , vector<bool>&vis, vector<bool>&dfsvis)
+    {
+        vis[i]=1;
+        dfsvis[i]=1;
+        
+        for(auto it:adj[i])
+        {
+            if(!vis[it])
+            {
+                if(checkCycle(it,adj,vis,dfsvis))
+                    return true;
+            }
+            else if(dfsvis[it])
+                return true;
+        }
+        dfsvis[i]=0;
+        return false;
+    }
+    
     bool canFinish(int num, vector<vector<int>>& pre) {
-        int n=pre.size();
         vector<int>adj[num];
-         vector<int>deg(num,0);
+        int n=pre.size();
         for(int i=0;i<n;i++)
         {
-            adj[pre[i][0]].push_back(pre[i][1]);
-            deg[pre[i][1]]++;
+            adj[pre[i][1]].push_back(pre[i][0]);
         }
-        
-        queue<int>q;
+        vector<bool>vis(num+1,0);
+        vector<bool>dfsvis(num+1,0);
         
         for(int i=0;i<num;i++)
         {
-            if(deg[i]==0)q.push(i);
-        }
-        int cnt=0;
-        while(!q.empty())
-        {
-            int node=q.front();
-            q.pop();
-            cnt++;
-            for(auto it:adj[node])
+            if(!vis[i])
             {
-                deg[it]--;
-                if(deg[it]==0)q.push(it);
+                if(checkCycle(i,adj,vis,dfsvis))
+                    return false;
             }
         }
-        if(cnt==num)
-        {
-            return true;
-        }
-        return false;
+        return true;
     }
 };
