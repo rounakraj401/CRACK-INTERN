@@ -1,33 +1,34 @@
 class Solution {
 public:
-    int fun(int r,int c,int n,int m,vector<vector<int>>&grid,vector<vector<int>>&dp)
+    int fill_ans(int i,int j,vector<vector<int>>& grid,vector<vector<int>>& dp)
     {
-        if(r==n)return c;
-        if(c==0 && grid[r][c]==-1)return -1;
-        if(c==m-1 && grid[r][c]==1)return -1;
+        if(i==grid.size())return j;
         
-        if(dp[r][c]!=-1)return dp[r][c];
+        if(j==0 && grid[i][j]==-1)
+            return -1;
         
-        if(grid[r][c]==1 && grid[r][c+1]==1)
-        {
-           return dp[r][c]=fun(r+1,c+1,n,m,grid,dp);
-        }
-        if(grid[r][c]==-1 && grid[r][c-1]==-1)
-        {
-           return dp[r][c]=fun(r+1,c-1,n,m,grid,dp);
-        }
-        return dp[r][c]=-1;
+        if(j==grid[0].size()-1 && grid[i][j]==1)
+            return -1;
+
+        if(dp[i][j]!=-2)return dp[i][j];
+        
+        if(grid[i][j]==1 && grid[i][j+1]==1)
+            return dp[i][j]=fill_ans(i+1,j+1,grid,dp);
+        if(grid[i][j]==-1 && grid[i][j-1]==-1)
+            return dp[i][j]=fill_ans(i+1,j-1,grid,dp);
+        
+        return dp[i][j]=-1;
     }
     
     vector<int> findBall(vector<vector<int>>& grid) {
-        vector<int>ans;
-        int n=grid.size();
-        int m=grid[0].size();
+        vector<int>ans(grid[0].size());
+        int n=grid[0].size();
+        int m=grid.size();
+        vector<vector<int>>dp(m+1,vector<int>(n+1,-2));
         
-        vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
-        for(int i=0;i<m;i++)
+        for(int i=0;i<n;i++)
         {
-            ans.push_back(fun(0,i,n,m,grid,dp));
+            ans[i]=fill_ans(0,i,grid,dp);
         }
         return ans;
     }
