@@ -18,14 +18,11 @@ void unionn(int a,int b)
        parent.resize(n);
         for(int i=0;i<n;i++)parent[i]=i;
         
-        // for(int i=0;i<n;i++)
-        // {
-        //     unionn(edges[i][0],edges[i][1]);
-        // }
-        for(auto it:edges)
+        for(int i=0;i<edges.size();i++)
         {
-            unionn(it[0],it[1]);
+            unionn(edges[i][0],edges[i][1]);
         }
+ 
         return (findpar(source)==findpar(destination));
     }
 };
