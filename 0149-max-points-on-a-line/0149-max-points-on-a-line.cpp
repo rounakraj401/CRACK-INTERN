@@ -4,10 +4,10 @@ public:
         if(points.size()<=2) return points.size(); 
         
         int res = 0;
-        for(int i = 0; i < points.size(); i++)
+        for(int i = 0; i <points.size(); i++)
         {
             unordered_map<double, int> mp;
-            int duplicate = 0;
+ //           int duplicate = 0;
             double slope = 0.0;
             for(int j = 0; j < points.size(); j++)
             {
@@ -19,7 +19,7 @@ public:
                 int dy = y2 - y1;
                 int dx = x2 - x1;
                 if(dy == 0 && dx == 0){ 
-                    duplicate++; 
+     //               duplicate++; 
                     continue;
                 }
                 
@@ -32,12 +32,12 @@ public:
             }
 
             if(mp.size() == 0)
-                res = duplicate;
+                res = 1;
             else
             {
                 for(auto slope : mp){
                     
-                    res = max(res, slope.second + duplicate);
+                    res = max(res, slope.second + 1);
                 }
             }
         }
