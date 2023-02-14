@@ -19,7 +19,7 @@ public:
         temp->next=head->next;
         head->next=temp;
         
-        temp->next=swapPairs(head->next->next);
+        temp->next=swapPairs(temp->next);
         return head;
     }
 };
