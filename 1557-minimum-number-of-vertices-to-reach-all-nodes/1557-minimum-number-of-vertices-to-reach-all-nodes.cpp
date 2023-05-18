@@ -1,6 +1,5 @@
 class Solution {
 public:
-
     vector<int> findSmallestSetOfVertices(int n, vector<vector<int>>& edges) {
         vector<int>adj[n+1];
         for(auto it:edges)
