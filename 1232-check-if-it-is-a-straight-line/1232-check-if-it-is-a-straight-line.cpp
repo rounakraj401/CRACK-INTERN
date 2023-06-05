@@ -1,0 +1,25 @@
+class Solution {
+public:
+    bool checkStraightLine(vector<vector<int>>& vec) {
+        int n=vec.size();
+        if((vec[1][0]-vec[0][0])==0)
+        {
+            for(int i=2;i<n;i++)
+            {
+            if(vec[i][0]-vec[i-1][0]!=0)
+                return 0;
+            }
+        }
+        else
+        {
+         double d=(vec[1][1]-vec[0][1])/(double)(vec[1][0]-vec[0][0]);
+         for(int i=2;i<n;i++)
+           {
+            double x=(vec[i][1]-vec[i-1][1])/(double)(vec[i][0]-vec[i-1][0]);
+            if(x!=d)
+                return 0;
+           }
+        }
+        return 1;
+    }
+};
