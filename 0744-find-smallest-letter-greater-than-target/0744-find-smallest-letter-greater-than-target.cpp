@@ -23,6 +23,6 @@ public:
         if(l>h)
         return vec[l%n]+'a';
         
-        return letters[0];
+        return 0;
     }
 };
