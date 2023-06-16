@@ -33,14 +33,11 @@ public:
                 if(node->right!=NULL)pq.push(node->right);
                 
             }
- //           cout<<sum<<"\n";
-            
             if(sum>temp)
             {
                 temp=sum;
                 ans=level;
             }
- //           cout<<temp<<" "<<ans<<"\n";
         }
         return ans;
     }
