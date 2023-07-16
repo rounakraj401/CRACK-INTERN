@@ -9,7 +9,7 @@ public:
         }
         
         int m = people.size();
-        vector<int> score(m,1);
+        vector<int> score(m,0);
         
         // calculating mask for each team
         
