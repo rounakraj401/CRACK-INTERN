@@ -4,7 +4,6 @@ public:
         int n=nums.size();
         int l=0;
         int h=n-1;
-        int ans=-1;
         while(l<=h)
         {
             int mid=(l+h)/2;
@@ -19,6 +18,7 @@ public:
                 l++;
                 h--;
             }
+            
             
             else if(nums[mid]>=nums[l])
             {
