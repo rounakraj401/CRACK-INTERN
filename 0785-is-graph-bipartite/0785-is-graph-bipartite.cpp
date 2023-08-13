@@ -1,38 +1,26 @@
 class Solution {
 public:
-    bool check(vector<int>adj[],int node,vector<int>&color,int curr_color)
+    bool dfs(int node,int col,vector<int>&color,vector<int>adj[])
     {
-        color[node]=curr_color;
-        queue<int>pq;
-        pq.push(node);
+        color[node]=col;
         
-        while(!pq.empty())
+        for(auto it:adj[node])
         {
-            int node=pq.front();
-            pq.pop();
-            
-            for(auto it:adj[node])
+            if(color[it]==-1)
             {
-                if(color[it]==0)
-                {
-                 color[it]=-1*color[node];
-                 pq.push(it);
-                }
-                else if(color[it]==color[node])
-                {
+                if(dfs(it,!col,color,adj)==false)
                     return false;
-                }
             }
-            curr_color*=-1;
+            else if(color[it]==col)
+                return false;
         }
         return true;
     }
-    
     bool isBipartite(vector<vector<int>>& graph) {
         int n=graph.size();
-        vector<int>color(n,0);
         vector<int>adj[n+1];
-        for(int i=0;i<graph.size();i++)
+        
+        for(int i=0;i<n;i++)
         {
             for(int j=0;j<graph[i].size();j++)
             {
@@ -41,13 +29,12 @@ public:
             }
         }
         
-        bool ans=true;
+        vector<int>color(n,-1);
         for(int i=0;i<n;i++)
         {
-            if(color[i]==0)
+            if(color[i]==-1)
             {
-                ans=ans && check(adj,i,color,1);
-                if(!ans)
+                if(dfs(i,0,color,adj)==false)
                     return false;
             }
         }
