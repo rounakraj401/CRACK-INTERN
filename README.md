@@ -7,10 +7,12 @@ consistency is the key
 | ------- |
 | [0441-arranging-coins](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0441-arranging-coins) |
 | [0523-continuous-subarray-sum](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0523-continuous-subarray-sum) |
+| [0633-sum-of-square-numbers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0633-sum-of-square-numbers) |
 # Binary Search
 |  |
 | ------- |
 | [0441-arranging-coins](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0441-arranging-coins) |
+| [0633-sum-of-square-numbers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0633-sum-of-square-numbers) |
 # Array
 |  |
 | ------- |
@@ -54,3 +56,7 @@ consistency is the key
 |  |
 | ------- |
 | [0330-patching-array](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0330-patching-array) |
+# Two Pointers
+|  |
+| ------- |
+| [0633-sum-of-square-numbers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0633-sum-of-square-numbers) |
