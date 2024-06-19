@@ -14,6 +14,7 @@ consistency is the key
 | [0441-arranging-coins](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0441-arranging-coins) |
 | [0633-sum-of-square-numbers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0853-most-profit-assigning-work) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 # Array
 |  |
 | ------- |
@@ -24,6 +25,7 @@ consistency is the key
 | [1016-subarray-sums-divisible-by-k](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1137-height-checker](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1217-relative-sort-array) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 # Hash Table
 |  |
 | ------- |
