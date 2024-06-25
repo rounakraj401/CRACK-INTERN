@@ -18,6 +18,7 @@ consistency is the key
 # Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0042-trapping-rain-water) |
 | [0330-patching-array](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0330-patching-array) |
 | [0523-continuous-subarray-sum](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0648-replace-words) |
@@ -65,6 +66,7 @@ consistency is the key
 # Two Pointers
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0042-trapping-rain-water) |
 | [0633-sum-of-square-numbers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0853-most-profit-assigning-work) |
 | [0908-middle-of-the-linked-list](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0908-middle-of-the-linked-list) |
@@ -88,3 +90,15 @@ consistency is the key
 |  |
 | ------- |
 | [0908-middle-of-the-linked-list](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0908-middle-of-the-linked-list) |
+# Dynamic Programming
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0042-trapping-rain-water) |
+# Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0042-trapping-rain-water) |
+# Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0042-trapping-rain-water) |
