@@ -67,3 +67,19 @@ consistency is the key
 | ------- |
 | [0633-sum-of-square-numbers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0853-most-profit-assigning-work) |
+# Tree
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Depth-First Search
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Binary Search Tree
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Binary Tree
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
