@@ -67,6 +67,7 @@ consistency is the key
 | ------- |
 | [0633-sum-of-square-numbers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0853-most-profit-assigning-work) |
+| [0908-middle-of-the-linked-list](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0908-middle-of-the-linked-list) |
 # Tree
 |  |
 | ------- |
@@ -83,3 +84,7 @@ consistency is the key
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Linked List
+|  |
+| ------- |
+| [0908-middle-of-the-linked-list](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0908-middle-of-the-linked-list) |
