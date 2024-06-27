@@ -63,6 +63,7 @@ consistency is the key
 | ------- |
 | [0330-patching-array](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0330-patching-array) |
 | [0853-most-profit-assigning-work](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0853-most-profit-assigning-work) |
+| [1285-balance-a-binary-search-tree](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1285-balance-a-binary-search-tree) |
 # Two Pointers
 |  |
 | ------- |
@@ -74,18 +75,22 @@ consistency is the key
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1285-balance-a-binary-search-tree) |
 # Depth-First Search
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Search Tree
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Tree
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1285-balance-a-binary-search-tree) |
 # Linked List
 |  |
 | ------- |
@@ -102,3 +107,7 @@ consistency is the key
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0042-trapping-rain-water) |
+# Divide and Conquer
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1285-balance-a-binary-search-tree) |
