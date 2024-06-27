@@ -111,3 +111,7 @@ consistency is the key
 |  |
 | ------- |
 | [1285-balance-a-binary-search-tree](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1285-balance-a-binary-search-tree) |
+# Graph
+|  |
+| ------- |
+| [1916-find-center-of-star-graph](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1916-find-center-of-star-graph) |
