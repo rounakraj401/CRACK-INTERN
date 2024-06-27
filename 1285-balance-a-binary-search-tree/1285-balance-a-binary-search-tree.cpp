@@ -36,6 +36,5 @@ public:
         fun(inorder,root);
         
         return balance(0,inorder.size()-1,inorder);
-
     }
 };
