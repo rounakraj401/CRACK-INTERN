@@ -154,6 +154,7 @@ consistency is the key
 |  |
 | ------- |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Linked List
 |  |
 | ------- |
@@ -180,4 +181,12 @@ consistency is the key
 |  |
 | ------- |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1951-find-the-winner-of-the-circular-game) |
+## String
+|  |
+| ------- |
+| [1818-maximum-score-from-removing-substrings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1818-maximum-score-from-removing-substrings) |
+## Stack
+|  |
+| ------- |
+| [1818-maximum-score-from-removing-substrings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1818-maximum-score-from-removing-substrings) |
 <!---LeetCode Topics End-->
