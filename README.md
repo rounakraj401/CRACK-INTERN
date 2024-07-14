@@ -138,6 +138,7 @@ consistency is the key
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0726-number-of-atoms](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0726-number-of-atoms) |
 ## Two Pointers
 |  |
 | ------- |
@@ -150,6 +151,7 @@ consistency is the key
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0726-number-of-atoms](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0726-number-of-atoms) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2846-robot-collisions](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2846-robot-collisions) |
 ## Greedy
@@ -187,10 +189,12 @@ consistency is the key
 ## String
 |  |
 | ------- |
+| [0726-number-of-atoms](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0726-number-of-atoms) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Stack
 |  |
 | ------- |
+| [0726-number-of-atoms](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0726-number-of-atoms) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2846-robot-collisions](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2846-robot-collisions) |
 <!---LeetCode Topics End-->
