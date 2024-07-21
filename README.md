@@ -179,12 +179,14 @@ consistency is the key
 ## Math
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0241-different-ways-to-add-parentheses) |
 | [1642-water-bottles](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2645-pass-the-pillow) |
 ## Recursion
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0241-different-ways-to-add-parentheses) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
@@ -193,6 +195,7 @@ consistency is the key
 ## String
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0241-different-ways-to-add-parentheses) |
 | [0726-number-of-atoms](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0726-number-of-atoms) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -219,4 +222,12 @@ consistency is the key
 | ------- |
 | [1207-delete-nodes-and-return-forest](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0241-different-ways-to-add-parentheses) |
+## Memoization
+|  |
+| ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0241-different-ways-to-add-parentheses) |
 <!---LeetCode Topics End-->
