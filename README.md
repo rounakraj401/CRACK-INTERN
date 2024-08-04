@@ -133,6 +133,7 @@ consistency is the key
 | [1293-three-consecutive-odds](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1293-three-consecutive-odds) |
 | [1333-sort-the-jumbled-numbers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1333-sort-the-jumbled-numbers) |
 | [1511-count-number-of-teams](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1511-count-number-of-teams) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1803-average-waiting-time](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -152,16 +153,19 @@ consistency is the key
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Binary Search
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Sorting
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0726-number-of-atoms) |
 | [1333-sort-the-jumbled-numbers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1333-sort-the-jumbled-numbers) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2502-sort-the-people](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2846-robot-collisions) |
