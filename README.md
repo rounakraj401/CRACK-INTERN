@@ -129,6 +129,7 @@ consistency is the key
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1293-three-consecutive-odds) |
 | [1333-sort-the-jumbled-numbers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1333-sort-the-jumbled-numbers) |
@@ -146,6 +147,7 @@ consistency is the key
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0726-number-of-atoms) |
+| [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1207-delete-nodes-and-return-forest) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2502-sort-the-people) |
@@ -194,6 +196,7 @@ consistency is the key
 |  |
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0241-different-ways-to-add-parentheses) |
+| [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
 | [1642-water-bottles](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2645-pass-the-pillow) |
@@ -262,4 +265,8 @@ consistency is the key
 |  |
 | ------- |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+## Matrix
+|  |
+| ------- |
+| [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
 <!---LeetCode Topics End-->
