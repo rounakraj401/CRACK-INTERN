@@ -128,6 +128,7 @@ consistency is the key
 ## Array
 |  |
 | ------- |
+| [0040-combination-sum-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0040-combination-sum-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1207-delete-nodes-and-return-forest) |
@@ -269,4 +270,8 @@ consistency is the key
 |  |
 | ------- |
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
+## Backtracking
+|  |
+| ------- |
+| [0040-combination-sum-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0040-combination-sum-ii) |
 <!---LeetCode Topics End-->
