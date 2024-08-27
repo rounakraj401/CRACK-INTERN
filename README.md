@@ -124,6 +124,7 @@ consistency is the key
 ## Graph
 |  |
 | ------- |
+| [1325-path-with-maximum-probability](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1325-path-with-maximum-probability) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 ## Array
 |  |
@@ -133,6 +134,7 @@ consistency is the key
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1293-three-consecutive-odds) |
+| [1325-path-with-maximum-probability](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1333-sort-the-jumbled-numbers) |
 | [1511-count-number-of-teams](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1511-count-number-of-teams) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -274,4 +276,12 @@ consistency is the key
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0040-combination-sum-ii) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1325-path-with-maximum-probability](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1325-path-with-maximum-probability) |
+## Shortest Path
+|  |
+| ------- |
+| [1325-path-with-maximum-probability](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1325-path-with-maximum-probability) |
 <!---LeetCode Topics End-->
