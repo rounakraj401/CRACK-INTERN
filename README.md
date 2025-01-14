@@ -148,6 +148,7 @@ consistency is the key
 | [2465-shifting-letters-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2465-shifting-letters-ii) |
 | [2502-sort-the-people](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2502-sort-the-people) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2691-count-vowel-strings-in-ranges) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2846-robot-collisions](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2846-robot-collisions) |
 ## Hash Table
 |  |
@@ -161,6 +162,7 @@ consistency is the key
 | [1502-construct-k-palindrome-strings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1502-construct-k-palindrome-strings) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2502-sort-the-people) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Two Pointers
@@ -308,4 +310,8 @@ consistency is the key
 | ------- |
 | [2465-shifting-letters-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2691-count-vowel-strings-in-ranges) |
+## Bit Manipulation
+|  |
+| ------- |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 <!---LeetCode Topics End-->
