@@ -31,14 +31,14 @@ public:
         string s=numtostring(num2);
         string ss=numtostring(num1);
 
-        cout<<s<<" "<<ss<<"\n";
+     //   cout<<s<<" "<<ss<<"\n";
         int x;
         int cnt=0;
         for(auto it:s)
         {
             if(it=='1')cnt++;
         }
-        cout<<cnt<<"\n";
+   //     cout<<cnt<<"\n";
 
         string ans;
         for(int i=0;i<ss.size();i++)
@@ -51,9 +51,8 @@ public:
             else
              ans.push_back('0');
         }
-        cout<<ans<<" "<<"\n";
-        cout<<ans.size()<<"\n";
-        cout<<cnt<<"\n";
+        // cout<<ans<<" "<<"\n";
+        // cout<<cnt<<"\n";
 
         int idx=ans.size()-1;
         while(idx>=0 && cnt>0)
@@ -66,7 +65,7 @@ public:
             }
             idx--;
         }
-         cout<<ans<<" "<<"\n";
+ //        cout<<ans<<" "<<"\n";
         return stringtonum(ans);
     }
 };
