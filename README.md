@@ -195,6 +195,7 @@ consistency is the key
 | [1502-construct-k-palindrome-strings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1502-construct-k-palindrome-strings) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2509-minimize-xor](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2509-minimize-xor) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Linked List
 |  |
@@ -313,5 +314,6 @@ consistency is the key
 ## Bit Manipulation
 |  |
 | ------- |
+| [2509-minimize-xor](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2509-minimize-xor) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 <!---LeetCode Topics End-->
