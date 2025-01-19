@@ -131,6 +131,7 @@ consistency is the key
 | ------- |
 | [0040-combination-sum-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0040-combination-sum-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
 | [0952-word-subsets](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0952-word-subsets) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1207-delete-nodes-and-return-forest) |
@@ -294,6 +295,7 @@ consistency is the key
 ## Matrix
 |  |
 | ------- |
+| [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
 ## Backtracking
 |  |
@@ -302,6 +304,7 @@ consistency is the key
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
 | [1325-path-with-maximum-probability](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1325-path-with-maximum-probability) |
 ## Shortest Path
 |  |
@@ -322,4 +325,8 @@ consistency is the key
 |  |
 | ------- |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2533-bitwise-xor-of-all-pairings) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
 <!---LeetCode Topics End-->
