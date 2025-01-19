@@ -133,6 +133,7 @@ consistency is the key
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
+| [0907-koko-eating-bananas](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0907-koko-eating-bananas) |
 | [0952-word-subsets](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0952-word-subsets) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1293-three-consecutive-odds) |
@@ -177,6 +178,7 @@ consistency is the key
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0907-koko-eating-bananas](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0907-koko-eating-bananas) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Sorting
