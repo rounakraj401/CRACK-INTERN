@@ -124,6 +124,7 @@ consistency is the key
 ## Graph
 |  |
 | ------- |
+| [0820-find-eventual-safe-states](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0820-find-eventual-safe-states) |
 | [1325-path-with-maximum-probability](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1325-path-with-maximum-probability) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 ## Array
@@ -268,6 +269,7 @@ consistency is the key
 ## Depth-First Search
 |  |
 | ------- |
+| [0820-find-eventual-safe-states](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0820-find-eventual-safe-states) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Dynamic Programming
@@ -331,4 +333,9 @@ consistency is the key
 |  |
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
+| [0820-find-eventual-safe-states](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0820-find-eventual-safe-states) |
+## Topological Sort
+|  |
+| ------- |
+| [0820-find-eventual-safe-states](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0820-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
