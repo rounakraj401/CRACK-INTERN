@@ -19,7 +19,7 @@ public:
         int n=nums.size();
         int sum=accumulate(nums.begin(),nums.end(),0);
 
-        int l=0;
+        int l=*max_element(nums.begin(),nums.end());
         int h=sum;
         int ans=sum;
         while(l<=h)
