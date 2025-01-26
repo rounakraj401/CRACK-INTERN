@@ -133,6 +133,7 @@ consistency is the key
 | [0040-combination-sum-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0040-combination-sum-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
+| [0410-split-array-largest-sum](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0410-split-array-largest-sum) |
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
 | [0907-koko-eating-bananas](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0907-koko-eating-bananas) |
 | [0952-word-subsets](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0952-word-subsets) |
@@ -179,6 +180,7 @@ consistency is the key
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0410-split-array-largest-sum](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0410-split-array-largest-sum) |
 | [0907-koko-eating-bananas](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0907-koko-eating-bananas) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -197,6 +199,7 @@ consistency is the key
 ## Greedy
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0410-split-array-largest-sum) |
 | [1502-construct-k-palindrome-strings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1502-construct-k-palindrome-strings) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -276,6 +279,7 @@ consistency is the key
 |  |
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0241-different-ways-to-add-parentheses) |
+| [0410-split-array-largest-sum](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0410-split-array-largest-sum) |
 | [1511-count-number-of-teams](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 ## Memoization
@@ -317,6 +321,7 @@ consistency is the key
 ## Prefix Sum
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0410-split-array-largest-sum) |
 | [2465-shifting-letters-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2691-count-vowel-strings-in-ranges) |
 ## Bit Manipulation
