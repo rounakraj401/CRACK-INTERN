@@ -151,6 +151,7 @@ consistency is the key
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2465-shifting-letters-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2465-shifting-letters-ii) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2502-sort-the-people](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2502-sort-the-people) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -167,6 +168,7 @@ consistency is the key
 | [1468-check-if-n-and-its-double-exist](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1502-construct-k-palindrome-strings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1502-construct-k-palindrome-strings) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2502-sort-the-people](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2502-sort-the-people) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -194,6 +196,7 @@ consistency is the key
 | [1468-check-if-n-and-its-double-exist](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2502-sort-the-people](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2846-robot-collisions) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -316,6 +319,7 @@ consistency is the key
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
 | [1325-path-with-maximum-probability](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1325-path-with-maximum-probability) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 ## Shortest Path
 |  |
 | ------- |
