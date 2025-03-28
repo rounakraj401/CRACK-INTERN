@@ -121,6 +121,7 @@ consistency is the key
 |  |
 | ------- |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Graph
 |  |
 | ------- |
@@ -154,6 +155,7 @@ consistency is the key
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2502-sort-the-people](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2502-sort-the-people) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2846-robot-collisions](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2846-robot-collisions) |
@@ -181,6 +183,7 @@ consistency is the key
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Binary Search
 |  |
 | ------- |
@@ -200,6 +203,7 @@ consistency is the key
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2502-sort-the-people](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2502-sort-the-people) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2846-robot-collisions](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2846-robot-collisions) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -313,6 +317,7 @@ consistency is the key
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Backtracking
 |  |
 | ------- |
@@ -323,6 +328,7 @@ consistency is the key
 | [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
 | [1325-path-with-maximum-probability](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1325-path-with-maximum-probability) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Shortest Path
 |  |
 | ------- |
@@ -348,6 +354,7 @@ consistency is the key
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
 | [0820-find-eventual-safe-states](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0820-find-eventual-safe-states) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Topological Sort
 |  |
 | ------- |
