@@ -163,6 +163,7 @@ consistency is the key
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
@@ -249,6 +250,7 @@ consistency is the key
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0241-different-ways-to-add-parentheses](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0241-different-ways-to-add-parentheses) |
 | [0726-number-of-atoms](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0726-number-of-atoms) |
 | [0952-word-subsets](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0952-word-subsets) |
@@ -305,6 +307,7 @@ consistency is the key
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0003-longest-substring-without-repeating-characters) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 ## Counting
 |  |
