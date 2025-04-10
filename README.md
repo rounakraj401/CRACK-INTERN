@@ -240,6 +240,7 @@ consistency is the key
 | [1951-find-the-winner-of-the-circular-game](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2645-pass-the-pillow](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2645-pass-the-pillow) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Recursion
 |  |
 | ------- |
@@ -263,6 +264,7 @@ consistency is the key
 | [2465-shifting-letters-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2465-shifting-letters-ii) |
 | [2502-sort-the-people](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2502-sort-the-people) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2691-count-vowel-strings-in-ranges) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Stack
@@ -298,6 +300,7 @@ consistency is the key
 | [0410-split-array-largest-sum](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0410-split-array-largest-sum) |
 | [1511-count-number-of-teams](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Memoization
 |  |
 | ------- |
