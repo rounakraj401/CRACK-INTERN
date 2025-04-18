@@ -254,6 +254,7 @@ consistency is the key
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0038-count-and-say](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0038-count-and-say) |
 | [0241-different-ways-to-add-parentheses](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0241-different-ways-to-add-parentheses) |
 | [0726-number-of-atoms](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0726-number-of-atoms) |
 | [0952-word-subsets](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0952-word-subsets) |
