@@ -125,6 +125,7 @@ consistency is the key
 ## Graph
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0744-network-delay-time) |
 | [0820-find-eventual-safe-states](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0820-find-eventual-safe-states) |
 | [1325-path-with-maximum-probability](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1325-path-with-maximum-probability) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
@@ -292,6 +293,7 @@ consistency is the key
 ## Depth-First Search
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0744-network-delay-time) |
 | [0820-find-eventual-safe-states](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0820-find-eventual-safe-states) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -339,12 +341,14 @@ consistency is the key
 |  |
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
+| [0744-network-delay-time](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1325-path-with-maximum-probability) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1325-path-with-maximum-probability) |
 ## Prefix Sum
 |  |
@@ -367,6 +371,7 @@ consistency is the key
 |  |
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
+| [0744-network-delay-time](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0744-network-delay-time) |
 | [0820-find-eventual-safe-states](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0820-find-eventual-safe-states) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Topological Sort
