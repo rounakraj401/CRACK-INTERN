@@ -134,6 +134,7 @@ consistency is the key
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0040-combination-sum-ii) |
+| [0213-house-robber-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0213-house-robber-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
 | [0410-split-array-largest-sum](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0410-split-array-largest-sum) |
@@ -301,6 +302,7 @@ consistency is the key
 ## Dynamic Programming
 |  |
 | ------- |
+| [0213-house-robber-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0213-house-robber-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0241-different-ways-to-add-parentheses) |
 | [0410-split-array-largest-sum](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0410-split-array-largest-sum) |
 | [1511-count-number-of-teams](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1511-count-number-of-teams) |
