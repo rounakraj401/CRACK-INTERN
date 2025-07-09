@@ -136,6 +136,7 @@ consistency is the key
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0040-combination-sum-ii) |
+| [0084-largest-rectangle-in-histogram](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0084-largest-rectangle-in-histogram) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0213-house-robber-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0213-house-robber-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -278,6 +279,7 @@ consistency is the key
 ## Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0084-largest-rectangle-in-histogram) |
 | [0726-number-of-atoms](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0726-number-of-atoms) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -395,4 +397,8 @@ consistency is the key
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1993-sum-of-all-subset-xor-totals) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
