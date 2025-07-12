@@ -178,6 +178,7 @@ consistency is the key
 | [0952-word-subsets](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0952-word-subsets) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1207-delete-nodes-and-return-forest) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1502-construct-k-palindrome-strings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1502-construct-k-palindrome-strings) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -266,6 +267,7 @@ consistency is the key
 | [0241-different-ways-to-add-parentheses](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0241-different-ways-to-add-parentheses) |
 | [0726-number-of-atoms](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0726-number-of-atoms) |
 | [0952-word-subsets](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0952-word-subsets) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1502-construct-k-palindrome-strings) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -327,6 +329,7 @@ consistency is the key
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 ## Counting
 |  |
