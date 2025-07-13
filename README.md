@@ -145,6 +145,7 @@ consistency is the key
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
 | [0907-koko-eating-bananas](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0907-koko-eating-bananas) |
 | [0952-word-subsets](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0952-word-subsets) |
+| [1034-subarrays-with-k-different-integers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1034-subarrays-with-k-different-integers) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1207-delete-nodes-and-return-forest) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1293-three-consecutive-odds](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1293-three-consecutive-odds) |
@@ -176,6 +177,7 @@ consistency is the key
 | [0726-number-of-atoms](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
 | [0952-word-subsets](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0952-word-subsets) |
+| [1034-subarrays-with-k-different-integers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1034-subarrays-with-k-different-integers) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1207-delete-nodes-and-return-forest) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -329,11 +331,13 @@ consistency is the key
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1034-subarrays-with-k-different-integers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1034-subarrays-with-k-different-integers) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 ## Counting
 |  |
 | ------- |
+| [1034-subarrays-with-k-different-integers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1034-subarrays-with-k-different-integers) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1502-construct-k-palindrome-strings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1502-construct-k-palindrome-strings) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
