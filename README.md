@@ -150,6 +150,7 @@ consistency is the key
 | [1227-number-of-equivalent-domino-pairs](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1293-three-consecutive-odds](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1293-three-consecutive-odds) |
 | [1325-path-with-maximum-probability](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1325-path-with-maximum-probability) |
+| [1331-path-with-maximum-gold](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1331-path-with-maximum-gold) |
 | [1333-sort-the-jumbled-numbers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1333-sort-the-jumbled-numbers) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1511-count-number-of-teams](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1511-count-number-of-teams) |
@@ -347,11 +348,13 @@ consistency is the key
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
+| [1331-path-with-maximum-gold](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1331-path-with-maximum-gold) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Backtracking
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0040-combination-sum-ii) |
+| [1331-path-with-maximum-gold](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1331-path-with-maximum-gold) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Heap (Priority Queue)
 |  |
