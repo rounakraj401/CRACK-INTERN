@@ -2,26 +2,17 @@ class Solution {
 public:
     int maxSum(vector<int>& nums) {
         int n=nums.size();
-        sort(nums.begin(), nums.end());
+        int maxm=*max_element(nums.begin(),nums.end());
 
-        if(nums[n-1]<=0)return nums[n-1];
-
+        if(maxm<0)return maxm;
         int sum=0;
         set<int>st;
-
-        for(int i=n-1;i>=0;i--)
+        for(auto it:nums)
         {
-            if(st.count(nums[i]))
-            {
-                continue;
+            if(it>0 && st.count(it)==0){
+                sum+=it;
+                st.insert(it);
             }
-            if(nums[i]>0)
-            {
-                sum+=nums[i];
-                st.insert(nums[i]);
-            }
-            else
-             break;
         }
         return sum;
     }
