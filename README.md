@@ -170,6 +170,7 @@ consistency is the key
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2846-robot-collisions](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2846-robot-collisions) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Hash Table
 |  |
 | ------- |
@@ -191,6 +192,7 @@ consistency is the key
 | [2888-minimum-index-of-a-valid-split](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Two Pointers
 |  |
 | ------- |
@@ -230,6 +232,7 @@ consistency is the key
 | [1818-maximum-score-from-removing-substrings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2509-minimize-xor](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2509-minimize-xor) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Linked List
 |  |
 | ------- |
