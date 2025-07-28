@@ -142,6 +142,7 @@ consistency is the key
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
 | [0410-split-array-largest-sum](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0410-split-array-largest-sum) |
+| [0419-battleships-in-a-board](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0419-battleships-in-a-board) |
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
 | [0907-koko-eating-bananas](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0907-koko-eating-bananas) |
 | [0952-word-subsets](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0952-word-subsets) |
@@ -310,6 +311,7 @@ consistency is the key
 |  |
 | ------- |
 | [0337-house-robber-iii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0337-house-robber-iii) |
+| [0419-battleships-in-a-board](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0419-battleships-in-a-board) |
 | [0744-network-delay-time](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0820-find-eventual-safe-states) |
@@ -354,6 +356,7 @@ consistency is the key
 |  |
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
+| [0419-battleships-in-a-board](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0419-battleships-in-a-board) |
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
 | [1331-path-with-maximum-gold](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1331-path-with-maximum-gold) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2588-maximum-number-of-points-from-grid-queries) |
