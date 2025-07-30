@@ -143,6 +143,7 @@ consistency is the key
 | [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
 | [0410-split-array-largest-sum](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0410-split-array-largest-sum) |
 | [0419-battleships-in-a-board](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0419-battleships-in-a-board) |
+| [0690-employee-importance](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0690-employee-importance) |
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
 | [0907-koko-eating-bananas](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0907-koko-eating-bananas) |
 | [0952-word-subsets](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0952-word-subsets) |
@@ -177,6 +178,7 @@ consistency is the key
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0690-employee-importance](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0690-employee-importance) |
 | [0726-number-of-atoms](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
 | [0952-word-subsets](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0952-word-subsets) |
@@ -297,6 +299,7 @@ consistency is the key
 |  |
 | ------- |
 | [0337-house-robber-iii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0337-house-robber-iii) |
+| [0690-employee-importance](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0690-employee-importance) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -312,6 +315,7 @@ consistency is the key
 | ------- |
 | [0337-house-robber-iii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0337-house-robber-iii) |
 | [0419-battleships-in-a-board](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0419-battleships-in-a-board) |
+| [0690-employee-importance](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0690-employee-importance) |
 | [0744-network-delay-time](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0820-find-eventual-safe-states) |
@@ -400,6 +404,7 @@ consistency is the key
 |  |
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
+| [0690-employee-importance](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0690-employee-importance) |
 | [0744-network-delay-time](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0820-find-eventual-safe-states) |
