@@ -166,6 +166,7 @@ consistency is the key
 | [2465-shifting-letters-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2465-shifting-letters-ii) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2502-sort-the-people](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2502-sort-the-people) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -393,12 +394,14 @@ consistency is the key
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2509-minimize-xor](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2509-minimize-xor) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Brainteaser
 |  |
 | ------- |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2533-bitwise-xor-of-all-pairings) |
 ## Breadth-First Search
 |  |
