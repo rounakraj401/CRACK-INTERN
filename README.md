@@ -137,6 +137,7 @@ consistency is the key
 | ------- |
 | [0040-combination-sum-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0040-combination-sum-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0084-largest-rectangle-in-histogram) |
+| [0118-pascals-triangle](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0118-pascals-triangle) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0213-house-robber-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0213-house-robber-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -326,6 +327,7 @@ consistency is the key
 ## Dynamic Programming
 |  |
 | ------- |
+| [0118-pascals-triangle](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0118-pascals-triangle) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0213-house-robber-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0213-house-robber-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0241-different-ways-to-add-parentheses) |
