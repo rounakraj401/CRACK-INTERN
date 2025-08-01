@@ -144,6 +144,7 @@ consistency is the key
 | [0407-trapping-rain-water-ii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0407-trapping-rain-water-ii) |
 | [0410-split-array-largest-sum](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0410-split-array-largest-sum) |
 | [0419-battleships-in-a-board](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0419-battleships-in-a-board) |
+| [0565-array-nesting](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0565-array-nesting) |
 | [0690-employee-importance](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0690-employee-importance) |
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
 | [0907-koko-eating-bananas](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0907-koko-eating-bananas) |
@@ -317,6 +318,7 @@ consistency is the key
 | ------- |
 | [0337-house-robber-iii](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0337-house-robber-iii) |
 | [0419-battleships-in-a-board](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0419-battleships-in-a-board) |
+| [0565-array-nesting](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0565-array-nesting) |
 | [0690-employee-importance](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0690-employee-importance) |
 | [0744-network-delay-time](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0801-is-graph-bipartite) |
