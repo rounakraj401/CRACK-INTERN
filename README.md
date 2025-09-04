@@ -262,6 +262,7 @@ consistency is the key
 | [1993-sum-of-all-subset-xor-totals](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2645-pass-the-pillow](https://github.com/rounakraj401/CRACK-INTERN/tree/master/2645-pass-the-pillow) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3830-find-closest-person](https://github.com/rounakraj401/CRACK-INTERN/tree/master/3830-find-closest-person) |
 ## Recursion
 |  |
 | ------- |
