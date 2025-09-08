@@ -257,6 +257,7 @@ consistency is the key
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0241-different-ways-to-add-parentheses) |
 | [0870-magic-squares-in-grid](https://github.com/rounakraj401/CRACK-INTERN/tree/master/0870-magic-squares-in-grid) |
+| [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1642-water-bottles](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/rounakraj401/CRACK-INTERN/tree/master/1993-sum-of-all-subset-xor-totals) |
